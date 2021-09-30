@@ -16,11 +16,11 @@ import (
 	"github.com/garyburd/redigo/redis"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
-	"github.com/shen100/golang123/config"
-	"github.com/shen100/golang123/controller/common"
-	"github.com/shen100/golang123/controller/mail"
-	"github.com/shen100/golang123/model"
-	"github.com/shen100/golang123/utils"
+	"golang123/config"
+	"golang123/controller/common"
+	"golang123/controller/mail"
+	"golang123/model"
+	"golang123/utils"
 )
 
 const (

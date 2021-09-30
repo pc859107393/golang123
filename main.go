@@ -7,11 +7,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
-	"github.com/shen100/golang123/config"
-	"github.com/shen100/golang123/cron"
-	"github.com/shen100/golang123/middleware"
-	"github.com/shen100/golang123/model"
-	"github.com/shen100/golang123/router"
+	"golang123/config"
+	"golang123/cron"
+	"golang123/middleware"
+	"golang123/model"
+	"golang123/router"
 )
 
 func main() {

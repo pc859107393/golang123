@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/cactus/go-statsd-client/statsd"
-	"github.com/shen100/golang123/config"
+	"golang123/config"
 )
 
 // StatsdClient statsd 客户端
-var StatsdClient *statsd.Statter
+var StatsdClient *statsd.Client
 
 func init() {
 	if config.StatsDConfig.URL == "" {
@@ -19,5 +19,5 @@ func init() {
 	if err != nil {
 		fmt.Println(err.Error())
 	}
-	StatsdClient = &client
+	StatsdClient = client
 }

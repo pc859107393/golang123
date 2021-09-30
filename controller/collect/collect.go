@@ -10,9 +10,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	"github.com/microcosm-cc/bluemonday"
-	"github.com/shen100/golang123/controller/common"
-	"github.com/shen100/golang123/model"
-	"github.com/shen100/golang123/utils"
+	"golang123/controller/common"
+	"golang123/model"
+	"golang123/utils"
 )
 
 // CreateCollect 收藏文章或收藏投票
