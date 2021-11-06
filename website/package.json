@@ -19,16 +19,16 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "axios": "0.16.2",
+    "axios": "^0.24.0",
     "iview": "2.11.0",
-    "moment": "2.18.1",
-    "nuxt": "1.0.0-rc11",
+    "moment": "^2.29.1",
+    "nuxt": "^2.15.8",
     "trim-html": "^0.1.9",
     "ua-parser-js": "^0.7.17"
   },
   "devDependencies": {
     "babel-eslint": "7.2.3",
-    "eslint": "4.5.0",
+    "eslint": "^8.2.0",
     "eslint-config-standard": "10.2.1",
     "eslint-loader": "1.9.0",
     "eslint-plugin-html": "3.2.0",

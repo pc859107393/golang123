@@ -2,8 +2,8 @@
 	"database": {
 		"Dialect"      : "mysql",
 		"Database"     : "golang123",
-		"User"	       : "",
-		"Password"     : "",
+		"User"	       : "root",
+		"Password"     : "laopo5201314",
 		"Charset"      : "utf8mb4",  /*要支持emoji的话，填 utf8mb4 */
 		"Host"         : "127.0.0.1",/*数据库ip*/
 		"Port"         : 3306,       /*数据库端口*/
@@ -13,7 +13,7 @@
 	"redis": {
 		"Host"      : "127.0.0.1",/*redis所在机器的ip*/
 		"Port"      : 6379,       /*redis的端口*/	
-		"Password"	: "",		  /*redis的密码，若无密码，可不填*/
+		"Password"	: "123",		  /*redis的密码，若无密码，可不填*/
 		"MaxIdle"   : 3,          /*最大的空闲连接数*/
 		"MaxActive" : 5           /*最大的激活连接数*/
 	},
